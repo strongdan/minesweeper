@@ -1,0 +1,16 @@
+{
+  "name": "minesweeper",
+  "version": "1.0.0",
+  "description": "Using Babel to transpile JS ES6 to ES5",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d lib"
+  },
+  "author": "Daniel Strong",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.6.0"
+  }
+}
